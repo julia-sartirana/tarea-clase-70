@@ -21,7 +21,7 @@ const GuestUserMessage = () => {
 
 const UserControl = ({ user }) => {
   return user !== "" ? (
-    <LoggedUserMessage>Hola, `${user}`</LoggedUserMessage>
+    <LoggedUserMessage>Hola, {user}</LoggedUserMessage>
   ) : (
     <GuestUserMessage></GuestUserMessage>
   );
