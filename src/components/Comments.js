@@ -12,12 +12,12 @@ const Comments = ({ comments }) => {
   return (
     <section>
       <h2>Comentarios</h2>
-      {comments.map((comment) => {
+      {comments.map((comment) => (
         <Comment>
           <CommentUser>{comment.user}</CommentUser>
           <CommentContent>{comment.comment}</CommentContent>
-        </Comment>;
-      })}
+        </Comment>
+      ))}
     </section>
   );
 };

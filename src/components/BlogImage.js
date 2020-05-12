@@ -3,8 +3,8 @@
 
 import React from "react";
 
-const BlogImage = ({ img }) => {
-  <img src={img}></img>;
-};
+const BlogImage = ({ img }) => (
+  <img src={img}></img>
+);
 
 export default BlogImage;

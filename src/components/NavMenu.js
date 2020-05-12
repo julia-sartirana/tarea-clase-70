@@ -18,4 +18,4 @@ const Nav = ({ children, direction = 'row' }) => {
   );
 };
 
-export default NavMenu;
+export default Nav;
